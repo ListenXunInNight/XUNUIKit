@@ -8,7 +8,7 @@
 #import "UIView+XUNUIKit.h"
 
 @implementation UIView (XUNUIKit)
-- (void)setxun_x:(CGFloat)xun_x {
+- (void)setXun_x:(CGFloat)xun_x {
     
     CGRect frame = self.frame;
     frame.origin.x = xun_x;
@@ -20,7 +20,7 @@
 }
 
 
-- (void)setxun_y:(CGFloat)xun_y {
+- (void)setXun_y:(CGFloat)xun_y {
     CGRect frame = self.frame;
     frame.origin.y = xun_y;
     self.frame = frame;
@@ -30,7 +30,7 @@
     return self.frame.origin.y;
 }
 
-- (void)setxun_width:(CGFloat)xun_width {
+- (void)setXun_width:(CGFloat)xun_width {
     CGRect frame = self.frame;
     frame.size.width = xun_width;
     self.frame = frame;
@@ -40,7 +40,7 @@
     return self.frame.size.width;
 }
 
-- (void)setxun_height:(CGFloat)xun_height {
+- (void)setXun_height:(CGFloat)xun_height {
     CGRect frame = self.frame;
     frame.size.height = xun_height;
     self.frame = frame;
@@ -50,7 +50,7 @@
     return self.frame.size.height;
 }
 
-- (void)setxun_centerX:(CGFloat)xun_centerX {
+- (void)setXun_centerX:(CGFloat)xun_centerX {
     
     CGPoint center = self.center;
     center.x = xun_centerX;
@@ -61,7 +61,7 @@
     return self.center.x;
 }
 
-- (void)setxun_centerY:(CGFloat)xun_centerY {
+- (void)setXun_centerY:(CGFloat)xun_centerY {
     CGPoint center = self.center;
     center.y = xun_centerY;
     self.center = center;
@@ -71,7 +71,7 @@
     return self.center.y;
 }
 
-- (void)setxun_origin:(CGPoint)xun_origin {
+- (void)setXun_origin:(CGPoint)xun_origin {
     CGRect frame = self.frame;
     frame.origin = xun_origin;
     self.frame = frame;
@@ -81,7 +81,7 @@
     return self.frame.origin;
 }
 
-- (void)setxun_size:(CGSize)xun_size {
+- (void)setXun_size:(CGSize)xun_size {
     CGRect frame = self.frame;
     frame.size = xun_size;
     self.frame = frame;
@@ -91,7 +91,7 @@
     return self.frame.size;
 }
 
-- (void)setxun_edgeInsets:(UIEdgeInsets)xun_edgeInsets {
+- (void)setXun_edgeInsets:(UIEdgeInsets)xun_edgeInsets {
     NSAssert(self.superview, @"Please Add %@ to Superview", self);
     CGRect frame;
     frame.origin.x = xun_edgeInsets.left;
@@ -107,7 +107,7 @@
 }
 
 
-- (void)setxun_leadingCenter:(CGPoint)xun_leadingCenter {
+- (void)setXun_leadingCenter:(CGPoint)xun_leadingCenter {
     NSAssert(self.superview, @"Please Add %@ to Superview", self);
     CGPoint p = CGPointMake(self.superview.xun_width / 2, self.superview.xun_height / 2);
     p.x += xun_leadingCenter.x;
@@ -123,7 +123,7 @@
     return p;
 }
 
-- (void)setxun_leadingYCenter:(CGFloat)xun_leadingYCenter {
+- (void)setXun_leadingYCenter:(CGFloat)xun_leadingYCenter {
     NSAssert(self.superview, @"Please Add %@ to Superview", self);
     self.xun_centerY = self.superview.xun_height / 2 + xun_leadingYCenter;
 }
@@ -133,7 +133,7 @@
     return self.xun_centerY - self.superview.xun_height / 2;
 }
 
-- (void)setxun_leadingXCenter:(CGFloat)xun_leadingXCenter {
+- (void)setXun_leadingXCenter:(CGFloat)xun_leadingXCenter {
     NSAssert(self.superview, @"Please Add %@ to Superview", self);
     self.xun_centerX = self.superview.xun_width / 2 + xun_leadingXCenter;
 }
