@@ -22,7 +22,7 @@ pod 'XUNUIKit'
 
 ## Author
 
-https://github.com/ListenXunInNight, 15170077181@163.com
+https://github.com/ListenXunInNight, listenxun@gmail.com
 
 ## License
 
