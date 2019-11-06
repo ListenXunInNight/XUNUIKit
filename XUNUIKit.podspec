@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     XUNUIKit supply some tools and methods for high frequency use in UI development. Wish XUNUIKit can help you with development.
                        DESC
 
-  s.homepage         = 'https://github.com/https://github.com/ListenXunInNight/XUNUIKit'
+  s.homepage         = 'https://github.com/ListenXunInNight/XUNUIKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'https://github.com/ListenXunInNight' => 'listenxun@gmail.com' }
   s.source           = { :git => 'https://github.com/ListenXunInNight/XUNUIKit.git', :tag => s.version.to_s }
