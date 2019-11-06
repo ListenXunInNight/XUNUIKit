@@ -1,0 +1,6 @@
+framework module XUNUIKit {
+  umbrella header "XUNUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
