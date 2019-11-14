@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08432943CCC3D8CCFC0AB8C7AEB64744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		084F6B970E7E09A993FAFEFF81D89015 /* CALayer+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A2909B1A016636D0EFD10088C022D6 /* CALayer+XUNUIKit.m */; };
-		0C88A696C26B05C0552335273D3AD2C7 /* UIImage+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A3E2A56A9503F1585AD8B75031D9E /* UIImage+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1616C4A4B1611C44B839280D2CF0324C /* UIColor+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4044426397B9E83547C6DA69B9044E41 /* UIColor+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01EFC39FDC1FF847C7310966A33D3576 /* UIResponder+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C5683C8895478E19C9C19B7C94786AD1 /* UIResponder+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		170A87E2FFEB1D3EC58DCF989BF3A918 /* Pods-XUNUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DC80FB9AB945D5C22F464689F6EAD8 /* Pods-XUNUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		342CF2B41577D1ED7A4D3AC99896E1A9 /* UIView+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 511CCB667F704996F100F506C46A175A /* UIView+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		173D50FBFDA9A6836566FAFF8DA9EB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		30D673D14AEA35EC13371B1DD36546F3 /* UIResponder+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D4E3B39E76A8A848F69915DF85823E /* UIResponder+XUNUIKit.m */; };
 		3DBCAC192D8490C4E9A01E1EE56AD9EC /* Pods-XUNUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 682D1ED293494E8F613451804E12D232 /* Pods-XUNUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5821D71B0F1BAD78C63B48A7CA56290F /* UIColor+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A41C13955ACCEADFBD03270652233 /* UIColor+XUNUIKit.m */; };
-		7F14B53D083AB69BF1FD336375E53648 /* UIView+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAD1F85464DD6602DCF950A9DEFC14 /* UIView+XUNUIKit.m */; };
-		8E72B0B2A25AB1C931C4815A1DDF54BC /* UIResponder+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DDB3CE33646D2C11414A300496981C /* UIResponder+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91D6AE9DDA04737AA1B93415872C3FAA /* UIResponder+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A41CFD21F7D7893D56DACD4503660B4 /* UIResponder+XUNUIKit.m */; };
+		4202C5EED26BB1CDB8D90645879EC46B /* XUNUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951829A8225B35CD9F43C48ECCBAC368 /* XUNUIKit-dummy.m */; };
+		4A61785CECC376F4F862AA85D0007B64 /* XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5D0905A7AC131042D2ECCB7DE8836 /* XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE37504A7B5ECC7F4A5F99BCCEBB0A9 /* XUNUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEDC570A03D03C7AC905413868240DEC /* XUNUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BCFABB321A4FA9C26C920DC01A989B9 /* UIColor+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BAF89B721975DD7636A0258FB5B826 /* UIColor+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3A3C36F9490B14EBF66BE602513BD4 /* UIImage+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A16449905835361DE2AFD576F64E7D5 /* UIImage+XUNUIKit.m */; };
+		6660D656F86B431C4E1E116BB20FD580 /* CALayer+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C142B6EF3E0406E3F8A7F957D97D4AF /* CALayer+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67838C6C382BF887C67B15298F5EB1FB /* UIImage+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D43B99D470976FAF8956EABC1CD505 /* UIImage+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F6B30BF1C30DA7397926463CA536F1 /* UIView+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD400CCFF5332C3F669F03CF350569D6 /* UIView+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8126A13E1D456C00A7D51619B4FA3047 /* UIView+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D369E17D2726BE9CE18CB9F9D44AFC38 /* UIView+XUNUIKit.m */; };
+		90427CAC1AB6A1779911B6A8A47AC80C /* UIColor+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B256804A29759D882A35BBCCDCD582 /* UIColor+XUNUIKit.m */; };
 		9372132AAE682D19FCFA7CF0F7A7D006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		96D74BA32019B8D12475CC72C73A6990 /* Pods-XUNUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 655B297C314481D9C94A6DF40F81A899 /* Pods-XUNUIKit_Example-dummy.m */; };
+		9BEA9B86D1AAA3AC17349B792726C622 /* CALayer+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C74400611CFE7FD0ADDBC68F8C2044A7 /* CALayer+XUNUIKit.m */; };
 		A2B10FFA759051438F81703852DECBED /* Pods-XUNUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE9CAF3473D63C9E132F90E9FCE992 /* Pods-XUNUIKit_Tests-dummy.m */; };
-		D1561D4F91CCC9739953FAECF58C8B09 /* XUNUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803783EEA3B85E640E249CF29BAF8D67 /* XUNUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF7C6BC73D36D753DF5DEA0ED52E415E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E49E52894B5B11226890FC75A4BE98A9 /* UIImage+XUNUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 733C492AAE59951CE769FAC3ADDD614F /* UIImage+XUNUIKit.m */; };
-		EDDB1D37CB909C783E1D609A2BDBB7B7 /* XUNUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F144B1BA1B8DC81698D37BF43EF125E6 /* XUNUIKit-dummy.m */; };
-		FB71ABB52476DD0FEC2DE1C89597C8D2 /* CALayer+XUNUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBA1856AA13BF383CB958F38E8FB0E8 /* CALayer+XUNUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,45 +48,46 @@
 
 /* Begin PBXFileReference section */
 		0486ACE8D57FB0FC004FF1E8C9E8CBE6 /* Pods-XUNUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XUNUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05D4E3B39E76A8A848F69915DF85823E /* UIResponder+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+XUNUIKit.m"; path = "XUNUIKit/Classes/UIResponder+XUNUIKit.m"; sourceTree = "<group>"; };
 		0A3779D290B66C394532253306EDD166 /* Pods-XUNUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUNUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		19D10E62E4637319A180744B8F30C536 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1AE3F597AD2B6CE9BA10221914BC85EF /* Pods-XUNUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUNUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		1EDE9CAF3473D63C9E132F90E9FCE992 /* Pods-XUNUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XUNUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		21C572BB45443816D733090039243687 /* XUNUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XUNUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22A2909B1A016636D0EFD10088C022D6 /* CALayer+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+XUNUIKit.m"; path = "XUNUIKit/Classes/CALayer+XUNUIKit.m"; sourceTree = "<group>"; };
-		2F0A41C13955ACCEADFBD03270652233 /* UIColor+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XUNUIKit.m"; path = "XUNUIKit/Classes/UIColor+XUNUIKit.m"; sourceTree = "<group>"; };
+		245FEC320D4B20FF5F0080D5019E16F9 /* XUNUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XUNUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34D9D27A5D4092D8DB231C282F97F0FD /* Pods_XUNUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XUNUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A41CFD21F7D7893D56DACD4503660B4 /* UIResponder+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+XUNUIKit.m"; path = "XUNUIKit/Classes/UIResponder+XUNUIKit.m"; sourceTree = "<group>"; };
-		3AB9A31A7CADF203E815640432FE29E0 /* XUNUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUNUIKit-prefix.pch"; sourceTree = "<group>"; };
-		3E3B3C6CEAFE010DC8161C5C0967CFCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4044426397B9E83547C6DA69B9044E41 /* UIColor+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+XUNUIKit.h"; path = "XUNUIKit/Classes/UIColor+XUNUIKit.h"; sourceTree = "<group>"; };
-		511CCB667F704996F100F506C46A175A /* UIView+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XUNUIKit.h"; path = "XUNUIKit/Classes/UIView+XUNUIKit.h"; sourceTree = "<group>"; };
+		3644F6140A46F6A174DE8E108F62025E /* XUNUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUNUIKit-prefix.pch"; sourceTree = "<group>"; };
+		4C142B6EF3E0406E3F8A7F957D97D4AF /* CALayer+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+XUNUIKit.h"; path = "XUNUIKit/Classes/CALayer+XUNUIKit.h"; sourceTree = "<group>"; };
+		5A16449905835361DE2AFD576F64E7D5 /* UIImage+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XUNUIKit.m"; path = "XUNUIKit/Classes/UIImage+XUNUIKit.m"; sourceTree = "<group>"; };
 		5EA9FBD2361A12601FCC47720E28F6F2 /* Pods-XUNUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUNUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		655B297C314481D9C94A6DF40F81A899 /* Pods-XUNUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XUNUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		67E5D0905A7AC131042D2ECCB7DE8836 /* XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XUNUIKit.h; path = XUNUIKit/Classes/XUNUIKit.h; sourceTree = "<group>"; };
 		682D1ED293494E8F613451804E12D232 /* Pods-XUNUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XUNUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		689A3E2A56A9503F1585AD8B75031D9E /* UIImage+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XUNUIKit.h"; path = "XUNUIKit/Classes/UIImage+XUNUIKit.h"; sourceTree = "<group>"; };
+		6ED98AB146819CE286AD09F999E073C4 /* XUNUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XUNUIKit.xcconfig; sourceTree = "<group>"; };
 		6F237DBCBC84555A6811969140B3BC94 /* Pods-XUNUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XUNUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		733C492AAE59951CE769FAC3ADDD614F /* UIImage+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XUNUIKit.m"; path = "XUNUIKit/Classes/UIImage+XUNUIKit.m"; sourceTree = "<group>"; };
+		6F68C7FD47A1F83B9A219627FDB0E271 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6FE8E5A444BA1BB8BCEAA6143DBBBB40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		75DECDE93E190A05A085DB16E65287AD /* Pods-XUNUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUNUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C27E4C853898CA153F143479CFCB853 /* XUNUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XUNUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		7CA755D8E4FA515EAA1ABAE8A34DA9A2 /* Pods-XUNUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUNUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		803783EEA3B85E640E249CF29BAF8D67 /* XUNUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUNUIKit-umbrella.h"; sourceTree = "<group>"; };
-		99DDB3CE33646D2C11414A300496981C /* UIResponder+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+XUNUIKit.h"; path = "XUNUIKit/Classes/UIResponder+XUNUIKit.h"; sourceTree = "<group>"; };
-		9CBF9E9CF42B1163A6F867295B98C297 /* XUNUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XUNUIKit-Info.plist"; sourceTree = "<group>"; };
+		927E5369D52629B9DE987241AC2599D5 /* XUNUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XUNUIKit.modulemap; sourceTree = "<group>"; };
+		951829A8225B35CD9F43C48ECCBAC368 /* XUNUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XUNUIKit-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D43B99D470976FAF8956EABC1CD505 /* UIImage+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XUNUIKit.h"; path = "XUNUIKit/Classes/UIImage+XUNUIKit.h"; sourceTree = "<group>"; };
+		B47576093BED3F9B25CE7DB4AB08A62A /* XUNUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XUNUIKit-Info.plist"; sourceTree = "<group>"; };
 		B9749440B2554F5554B0BEC23994DDD6 /* Pods-XUNUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XUNUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C114E2B1BE2184AEA08671408411422C /* Pods_XUNUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XUNUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38A331E1EE3978EDCE74465C17A5E2C /* Pods-XUNUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XUNUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		C3B256804A29759D882A35BBCCDCD582 /* UIColor+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XUNUIKit.m"; path = "XUNUIKit/Classes/UIColor+XUNUIKit.m"; sourceTree = "<group>"; };
+		C3BAF89B721975DD7636A0258FB5B826 /* UIColor+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+XUNUIKit.h"; path = "XUNUIKit/Classes/UIColor+XUNUIKit.h"; sourceTree = "<group>"; };
 		C3CCBBB9F843D0330BB1537B163A2253 /* Pods-XUNUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XUNUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5683C8895478E19C9C19B7C94786AD1 /* UIResponder+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+XUNUIKit.h"; path = "XUNUIKit/Classes/UIResponder+XUNUIKit.h"; sourceTree = "<group>"; };
+		C74400611CFE7FD0ADDBC68F8C2044A7 /* CALayer+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+XUNUIKit.m"; path = "XUNUIKit/Classes/CALayer+XUNUIKit.m"; sourceTree = "<group>"; };
+		D369E17D2726BE9CE18CB9F9D44AFC38 /* UIView+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XUNUIKit.m"; path = "XUNUIKit/Classes/UIView+XUNUIKit.m"; sourceTree = "<group>"; };
 		D56061BFC733FDBA33F2594121559ABB /* Pods-XUNUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUNUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFDAD1F85464DD6602DCF950A9DEFC14 /* UIView+XUNUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XUNUIKit.m"; path = "XUNUIKit/Classes/UIView+XUNUIKit.m"; sourceTree = "<group>"; };
+		DD400CCFF5332C3F669F03CF350569D6 /* UIView+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XUNUIKit.h"; path = "XUNUIKit/Classes/UIView+XUNUIKit.h"; sourceTree = "<group>"; };
+		DEDC570A03D03C7AC905413868240DEC /* XUNUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUNUIKit-umbrella.h"; sourceTree = "<group>"; };
 		E6DC80FB9AB945D5C22F464689F6EAD8 /* Pods-XUNUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XUNUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		E822E62A1717C3E7A446C063981D3BAB /* XUNUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XUNUIKit.xcconfig; sourceTree = "<group>"; };
-		EA376F7145291A67B07CC181D74796F3 /* XUNUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XUNUIKit.modulemap; sourceTree = "<group>"; };
-		EDBA1856AA13BF383CB958F38E8FB0E8 /* CALayer+XUNUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+XUNUIKit.h"; path = "XUNUIKit/Classes/CALayer+XUNUIKit.h"; sourceTree = "<group>"; };
 		F008A9AA425BB168B23E8A93DD8CC8C7 /* Pods-XUNUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUNUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F144B1BA1B8DC81698D37BF43EF125E6 /* XUNUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XUNUIKit-dummy.m"; sourceTree = "<group>"; };
 		FE5AA74507E88CBB3C52DA07CCF76CB7 /* Pods-XUNUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUNUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C852C69EDF259D70E5A4E972A2CE0C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173D50FBFDA9A6836566FAFF8DA9EB3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0EC265F2E2FDD754AF46EDC52BF1065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,37 +116,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB002B297E0E4548CAA789F4097F50FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08432943CCC3D8CCFC0AB8C7AEB64744 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12FF329C97FC6212688779B9CAA84DD2 /* Support Files */ = {
+		0ABFF3752B0D136474E78C9BBD426690 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EA376F7145291A67B07CC181D74796F3 /* XUNUIKit.modulemap */,
-				E822E62A1717C3E7A446C063981D3BAB /* XUNUIKit.xcconfig */,
-				F144B1BA1B8DC81698D37BF43EF125E6 /* XUNUIKit-dummy.m */,
-				9CBF9E9CF42B1163A6F867295B98C297 /* XUNUIKit-Info.plist */,
-				3AB9A31A7CADF203E815640432FE29E0 /* XUNUIKit-prefix.pch */,
-				803783EEA3B85E640E249CF29BAF8D67 /* XUNUIKit-umbrella.h */,
+				6F68C7FD47A1F83B9A219627FDB0E271 /* LICENSE */,
+				6FE8E5A444BA1BB8BCEAA6143DBBBB40 /* README.md */,
+				245FEC320D4B20FF5F0080D5019E16F9 /* XUNUIKit.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XUNUIKit";
-			sourceTree = "<group>";
-		};
-		3AB492BF89EE9FD9B446F4E1779FF4C7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9A80CD6EA4E2285E595F6BC3164826A2 /* XUNUIKit */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5335CD2E8AFA4304A0E1179FEEF8F3EB /* Targets Support Files */ = {
@@ -165,21 +155,22 @@
 			path = "Target Support Files/Pods-XUNUIKit_Example";
 			sourceTree = "<group>";
 		};
-		9A80CD6EA4E2285E595F6BC3164826A2 /* XUNUIKit */ = {
+		9A6B400F66A8AC0F2819DEB6325CF758 /* XUNUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EDBA1856AA13BF383CB958F38E8FB0E8 /* CALayer+XUNUIKit.h */,
-				22A2909B1A016636D0EFD10088C022D6 /* CALayer+XUNUIKit.m */,
-				4044426397B9E83547C6DA69B9044E41 /* UIColor+XUNUIKit.h */,
-				2F0A41C13955ACCEADFBD03270652233 /* UIColor+XUNUIKit.m */,
-				689A3E2A56A9503F1585AD8B75031D9E /* UIImage+XUNUIKit.h */,
-				733C492AAE59951CE769FAC3ADDD614F /* UIImage+XUNUIKit.m */,
-				99DDB3CE33646D2C11414A300496981C /* UIResponder+XUNUIKit.h */,
-				3A41CFD21F7D7893D56DACD4503660B4 /* UIResponder+XUNUIKit.m */,
-				511CCB667F704996F100F506C46A175A /* UIView+XUNUIKit.h */,
-				DFDAD1F85464DD6602DCF950A9DEFC14 /* UIView+XUNUIKit.m */,
-				DE684AA09D131982BE5B2647AE7CFA98 /* Pod */,
-				12FF329C97FC6212688779B9CAA84DD2 /* Support Files */,
+				4C142B6EF3E0406E3F8A7F957D97D4AF /* CALayer+XUNUIKit.h */,
+				C74400611CFE7FD0ADDBC68F8C2044A7 /* CALayer+XUNUIKit.m */,
+				C3BAF89B721975DD7636A0258FB5B826 /* UIColor+XUNUIKit.h */,
+				C3B256804A29759D882A35BBCCDCD582 /* UIColor+XUNUIKit.m */,
+				A0D43B99D470976FAF8956EABC1CD505 /* UIImage+XUNUIKit.h */,
+				5A16449905835361DE2AFD576F64E7D5 /* UIImage+XUNUIKit.m */,
+				C5683C8895478E19C9C19B7C94786AD1 /* UIResponder+XUNUIKit.h */,
+				05D4E3B39E76A8A848F69915DF85823E /* UIResponder+XUNUIKit.m */,
+				DD400CCFF5332C3F669F03CF350569D6 /* UIView+XUNUIKit.h */,
+				D369E17D2726BE9CE18CB9F9D44AFC38 /* UIView+XUNUIKit.m */,
+				67E5D0905A7AC131042D2ECCB7DE8836 /* XUNUIKit.h */,
+				0ABFF3752B0D136474E78C9BBD426690 /* Pod */,
+				E52939C3B57FDE94EE5DD809387F6F43 /* Support Files */,
 			);
 			name = XUNUIKit;
 			path = ../..;
@@ -197,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3AB492BF89EE9FD9B446F4E1779FF4C7 /* Development Pods */,
+				D9EF4B220B9773FC7DE2B5736F5B5A68 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F3BF9EE1B4B7250822E3407702DE7158 /* Products */,
 				5335CD2E8AFA4304A0E1179FEEF8F3EB /* Targets Support Files */,
@@ -212,14 +203,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE684AA09D131982BE5B2647AE7CFA98 /* Pod */ = {
+		D9EF4B220B9773FC7DE2B5736F5B5A68 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19D10E62E4637319A180744B8F30C536 /* LICENSE */,
-				3E3B3C6CEAFE010DC8161C5C0967CFCF /* README.md */,
-				7C27E4C853898CA153F143479CFCB853 /* XUNUIKit.podspec */,
+				9A6B400F66A8AC0F2819DEB6325CF758 /* XUNUIKit */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E52939C3B57FDE94EE5DD809387F6F43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				927E5369D52629B9DE987241AC2599D5 /* XUNUIKit.modulemap */,
+				6ED98AB146819CE286AD09F999E073C4 /* XUNUIKit.xcconfig */,
+				951829A8225B35CD9F43C48ECCBAC368 /* XUNUIKit-dummy.m */,
+				B47576093BED3F9B25CE7DB4AB08A62A /* XUNUIKit-Info.plist */,
+				3644F6140A46F6A174DE8E108F62025E /* XUNUIKit-prefix.pch */,
+				DEDC570A03D03C7AC905413868240DEC /* XUNUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XUNUIKit";
 			sourceTree = "<group>";
 		};
 		EC78ED39E7C57E57108882E2C07319F1 /* Pods-XUNUIKit_Tests */ = {
@@ -259,16 +262,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2406BE934C211672A9907C601B148C47 /* Headers */ = {
+		54BF6E438740A2D4F1112AEEDB1C2F6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB71ABB52476DD0FEC2DE1C89597C8D2 /* CALayer+XUNUIKit.h in Headers */,
-				1616C4A4B1611C44B839280D2CF0324C /* UIColor+XUNUIKit.h in Headers */,
-				0C88A696C26B05C0552335273D3AD2C7 /* UIImage+XUNUIKit.h in Headers */,
-				8E72B0B2A25AB1C931C4815A1DDF54BC /* UIResponder+XUNUIKit.h in Headers */,
-				342CF2B41577D1ED7A4D3AC99896E1A9 /* UIView+XUNUIKit.h in Headers */,
-				D1561D4F91CCC9739953FAECF58C8B09 /* XUNUIKit-umbrella.h in Headers */,
+				6660D656F86B431C4E1E116BB20FD580 /* CALayer+XUNUIKit.h in Headers */,
+				5BCFABB321A4FA9C26C920DC01A989B9 /* UIColor+XUNUIKit.h in Headers */,
+				67838C6C382BF887C67B15298F5EB1FB /* UIImage+XUNUIKit.h in Headers */,
+				01EFC39FDC1FF847C7310966A33D3576 /* UIResponder+XUNUIKit.h in Headers */,
+				74F6B30BF1C30DA7397926463CA536F1 /* UIView+XUNUIKit.h in Headers */,
+				4BE37504A7B5ECC7F4A5F99BCCEBB0A9 /* XUNUIKit-umbrella.h in Headers */,
+				4A61785CECC376F4F862AA85D0007B64 /* XUNUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +289,12 @@
 /* Begin PBXNativeTarget section */
 		187052F2A62B526F9EA2C204F0413F9B /* XUNUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 549522566C51267A05DDA6A88F7EC23F /* Build configuration list for PBXNativeTarget "XUNUIKit" */;
+			buildConfigurationList = 638931772176993420CDB70FE496ED41 /* Build configuration list for PBXNativeTarget "XUNUIKit" */;
 			buildPhases = (
-				2406BE934C211672A9907C601B148C47 /* Headers */,
-				29225898F868D57619CADF7350B44272 /* Sources */,
-				FB002B297E0E4548CAA789F4097F50FC /* Frameworks */,
-				6C89E40F5B12E558FDC94AC0EBC42B10 /* Resources */,
+				54BF6E438740A2D4F1112AEEDB1C2F6A /* Headers */,
+				5A1A7454B06071919562F7B7152E086C /* Sources */,
+				C852C69EDF259D70E5A4E972A2CE0C3F /* Frameworks */,
+				6D16CDAD4905838F22746E7283E005BC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -375,7 +379,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C89E40F5B12E558FDC94AC0EBC42B10 /* Resources */ = {
+		6D16CDAD4905838F22746E7283E005BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,16 +396,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29225898F868D57619CADF7350B44272 /* Sources */ = {
+		5A1A7454B06071919562F7B7152E086C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084F6B970E7E09A993FAFEFF81D89015 /* CALayer+XUNUIKit.m in Sources */,
-				5821D71B0F1BAD78C63B48A7CA56290F /* UIColor+XUNUIKit.m in Sources */,
-				E49E52894B5B11226890FC75A4BE98A9 /* UIImage+XUNUIKit.m in Sources */,
-				91D6AE9DDA04737AA1B93415872C3FAA /* UIResponder+XUNUIKit.m in Sources */,
-				7F14B53D083AB69BF1FD336375E53648 /* UIView+XUNUIKit.m in Sources */,
-				EDDB1D37CB909C783E1D609A2BDBB7B7 /* XUNUIKit-dummy.m in Sources */,
+				9BEA9B86D1AAA3AC17349B792726C622 /* CALayer+XUNUIKit.m in Sources */,
+				90427CAC1AB6A1779911B6A8A47AC80C /* UIColor+XUNUIKit.m in Sources */,
+				5C3A3C36F9490B14EBF66BE602513BD4 /* UIImage+XUNUIKit.m in Sources */,
+				30D673D14AEA35EC13371B1DD36546F3 /* UIResponder+XUNUIKit.m in Sources */,
+				8126A13E1D456C00A7D51619B4FA3047 /* UIView+XUNUIKit.m in Sources */,
+				4202C5EED26BB1CDB8D90645879EC46B /* XUNUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		24EB800644DAF164BF730CEC17C3A5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED98AB146819CE286AD09F999E073C4 /* XUNUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XUNUIKit/XUNUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XUNUIKit/XUNUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XUNUIKit/XUNUIKit.modulemap";
+				PRODUCT_MODULE_NAME = XUNUIKit;
+				PRODUCT_NAME = XUNUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -595,9 +630,9 @@
 			};
 			name = Debug;
 		};
-		8A87225102DE51A3A4ED4414DE3B7ECF /* Debug */ = {
+		C69BFE7D40DA1E02C28E0CC06A36A5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E822E62A1717C3E7A446C063981D3BAB /* XUNUIKit.xcconfig */;
+			baseConfigurationReference = 6ED98AB146819CE286AD09F999E073C4 /* XUNUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -621,10 +656,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		DC88814FAA3D74AB1F59F0797D5816B3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -727,38 +763,6 @@
 			};
 			name = Release;
 		};
-		F16A7281B5A3BDB768CE908DF42A1169 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E822E62A1717C3E7A446C063981D3BAB /* XUNUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XUNUIKit/XUNUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XUNUIKit/XUNUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XUNUIKit/XUNUIKit.modulemap";
-				PRODUCT_MODULE_NAME = XUNUIKit;
-				PRODUCT_NAME = XUNUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -771,11 +775,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		549522566C51267A05DDA6A88F7EC23F /* Build configuration list for PBXNativeTarget "XUNUIKit" */ = {
+		638931772176993420CDB70FE496ED41 /* Build configuration list for PBXNativeTarget "XUNUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A87225102DE51A3A4ED4414DE3B7ECF /* Debug */,
-				F16A7281B5A3BDB768CE908DF42A1169 /* Release */,
+				24EB800644DAF164BF730CEC17C3A5F9 /* Debug */,
+				C69BFE7D40DA1E02C28E0CC06A36A5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

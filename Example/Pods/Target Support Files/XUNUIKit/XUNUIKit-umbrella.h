@@ -15,6 +15,7 @@
 #import "UIImage+XUNUIKit.h"
 #import "UIResponder+XUNUIKit.h"
 #import "UIView+XUNUIKit.h"
+#import "XUNUIKit.h"
 
 FOUNDATION_EXPORT double XUNUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XUNUIKitVersionString[];
