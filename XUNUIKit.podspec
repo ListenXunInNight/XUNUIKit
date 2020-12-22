@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XUNUIKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A tiny ui tools set.'
 
   s.description      = <<-DESC
