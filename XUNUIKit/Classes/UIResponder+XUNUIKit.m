@@ -18,7 +18,7 @@
 }
 
 - (UITabBarController *)xun_tbc {
-    return [self xun_nextResponderWithClass:UINavigationController.class];
+    return [self xun_nextResponderWithClass:UITabBarController.class];
 }
 
 - (id)xun_nextResponderWithClass:(Class)class {
